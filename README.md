@@ -32,7 +32,7 @@ Ensure Python 3.11 or above is installed.
 
 ### 2. Install dependencies
 
-Run the following commands:
+Run the following commands in the terminal:
 
 pip install playwright openpyxl
 playwright install
@@ -43,23 +43,23 @@ playwright install
 
 Use the following command:
 
-python3 test_automation_final.py --excel "Assignment_1_Test_cases_v2.xlsx" --url "https://www.pixelssuite.com/chat-translator"
+python3 IT23707122.py --excel "IT23707122.xlsx" --url "https://www.pixelssuite.com/chat-translator"
 
 ---
 
 ## Project Structure
 
-* Assignment_1_Test_cases_v2.xlsx → Contains test cases and results
-* test_automation_final.py → Automation script
+* IT23707122.xlsx → Contains test cases and results
+* IT23707122.py → Automation script
 * README.md → Project instructions
-* git_link.txt → Git repository link
+* IT23707122_GitLink.txt → Git repository link
 
 ---
 
 ## Notes
 
-* The automation script fills the “Actual Output” and “Status” columns automatically.
-* The “Singlish Input Types Covered” and “Evidence or Rationale” columns are filled manually.
-* All test cases are negative scenarios as required by the assignment.
+* The automation script automatically fills the “Actual Output” and “Status” columns in the Excel file.
+* The “Singlish Input Types Covered” and “Evidence or Rationale” columns are completed manually.
+* All test cases included are negative scenarios as required by the assignment.
 
 ---
