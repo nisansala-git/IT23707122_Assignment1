@@ -56,6 +56,17 @@ python3 IT23707122.py --excel "IT23707122.xlsx" --url "https://www.pixelssuite.c
 
 ---
 
+## Compatibility Note
+
+This project was developed and tested on macOS.
+The automation script is compatible with both macOS and Windows environments.
+
+For Windows users, the command may be:
+
+python IT23707122.py --excel "IT23707122.xlsx" --url "https://www.pixelssuite.com/chat-translator"
+
+---
+
 ## Notes
 
 * The automation script automatically fills the “Actual Output” and “Status” columns in the Excel file.
